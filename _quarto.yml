@@ -1,0 +1,21 @@
+project:
+  type: book
+
+book:
+  title: "南极谋杀案"
+  author: "MY"
+  date: "3/25/2024"
+  chapters:
+    - index.qmd
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: ctexbook
+    latex-engine: xelatex
+    mainfont: "Heiti SC"
+
+lang: zh
+editor: visual
+
